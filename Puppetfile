@@ -8,7 +8,7 @@ mod 'puppetlabs/stdlib',      '4.25.1'
 mod 'puppetlabs-puppet_agent', '1.7.0'
 # mod 'zack-catalog_diff',       '1.6.0'
 
-mod 'catalog-diff',
+mod 'catalog_diff',
   git:    'git@github.com:mijamill/puppet-catalog-diff.git',
   branch: 'fact_api_update'
 
