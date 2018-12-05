@@ -1,5 +1,13 @@
 class profile::base {
 
-  #the base profile should include component modules that will be on all nodes
-
+  user { 'mikey':
+    ensure => present,
+  }
+  user { 'user2':
+    ensure => present,
+  }
+  user { 'user3':
+    ensure => present,
+  }
+  
 }
