@@ -32,4 +32,7 @@ node default {
   user { 'mikey':
     ensure => present,
   }
+  user { 'user2':
+    ensure => present,
+  }
 }
