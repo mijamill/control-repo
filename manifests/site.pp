@@ -29,10 +29,5 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  user { 'mikey':
-    ensure => present,
-  }
-  user { 'user2':
-    ensure => present,
-  }
+  include ::profile::base
 }
