@@ -6,7 +6,11 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs/stdlib',      '4.25.1'
 #mod 'puppetlabs/concat',      '4.2.1'
 mod 'puppetlabs-puppet_agent', '1.7.0'
-mod 'zack-catalog_diff',       '1.6.0'
+# mod 'zack-catalog_diff',       '1.6.0'
+
+mod 'catalog-diff',
+  git:    'git@github.com:mijamill/puppet-catalog-diff.git',
+  branch: 'fact_api_update'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
